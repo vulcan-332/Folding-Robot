@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/12/20||13:08:41" using="Simscape Multibody Link Version 6.1" from="SolidWorks 27.2.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Arnold" uid="Arnold" version="440">
+<AssemblyFile name="Arnold.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="LINK 1-11" uid="LINK 1-11" entityUid="LINK 1*:*Default">
+<Transform>
+<Rotation>-5.403730431888144e-16 0.67753087153724878 0.73549433588164115 -1.1935115451383854e-15 -0.73549433588164115 0.67753087153724878 1 -5.1170156235167515e-16 1.2060822298958767e-15</Rotation>
+<Translation>-0.42391151646130848 0.30005689340449471 0.13374878932162404</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector_1-7" uid="Servo_connector_1-7" entityUid="Servo_connector_1*:*Default">
+<Transform>
+<Rotation>-0.94125808364685315 4.3710614258228354e-16 -0.33768805126840618 -0.33768805126840618 5.9837073494315386e-16 0.94125808364685315 6.1349233753626592e-16 1 -4.1561576979689061e-16</Rotation>
+<Translation>-0.53434860788605865 0.31571883689977254 -0.27995121067837547</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 3-5" uid="LINK 3-5" entityUid="LINK 3*:*Default">
+<Transform>
+<Rotation>0.41048672239983791 -0.91186657507194468 -1.6923136334140022e-16 0.91186657507194468 0.41048672239983791 -1.9736236301218321e-16 2.4943536967329277e-16 0 1</Rotation>
+<Translation>-0.55490315113649202 0.1429223754910941 0.097848789321623858</Translation>
+</Transform>
+</Instance>
+<Instance name="Chassis 3 link-2" uid="Chassis 3 link-2" grounded="true" entityUid="Chassis 3 link*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.56434860788605867 0.26571883689977244 0.067948789321624528</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-7" uid="Servo motor HS475-7" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>1.4988010832439619e-15 4.7362368230553959e-16 -1 1 -5.9837073494315504e-16 1.4988010832439617e-15 -5.9837073494315435e-16 -1 -4.7362368230554048e-16</Rotation>
+<Translation>-0.53434860788605865 0.31571883689977254 -0.23365121067837546</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-9" uid="Servo motor HS475-9" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>0 -1.0260954227806529e-16 -1 -1 0 0 0 0.99999999999999989 -1.0260954227806541e-16</Rotation>
+<Translation>-0.14434860788605863 0.31571883689977243 0.069548789321624532</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-8" uid="Servo motor HS475-8" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>1.4988010832439619e-15 4.7362368230553959e-16 -1 1 -5.9837073494315504e-16 1.4988010832439617e-15 -5.9837073494315435e-16 -1 -4.7362368230554048e-16</Rotation>
+<Translation>-0.14434860788605872 0.31571883689977248 -0.23365121067837541</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-10" uid="Servo motor HS475-10" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>-1.4432899320127037e-15 2.546029276201165e-16 -1 -1.0000000000000002 -5.0158345936550076e-16 1.3877787807814459e-15 -5.0158345936550037e-16 0.99999999999999989 2.5460292762011714e-16</Rotation>
+<Translation>-0.53434860788605865 0.31571883689977248 0.069548789321624505</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector_1-4" uid="Servo_connector_1-4" entityUid="Servo_connector_1*:*Default">
+<Transform>
+<Rotation>-0.92372802134706855 1.0494482988059226e-15 0.38304900806323666 -0.38304900806323666 0 -0.92372802134706855 -9.6530107812114664e-16 -1 4.1188631372943597e-16</Rotation>
+<Translation>-0.14434860788605869 0.31571883689977243 0.11584878932162455</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector_1-5" uid="Servo_connector_1-5" entityUid="Servo_connector_1*:*Default">
+<Transform>
+<Rotation>-0.88407490787958765 6.5612689726770693e-16 0.46734522278257928 -0.46734522278257928 5.0158345936549938e-16 -0.88407490787958765 -8.1447795982049366e-16 -1 -1.367995796552598e-16</Rotation>
+<Translation>-0.53434860788605865 0.31571883689977248 0.1158487893216245</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector_1-6" uid="Servo_connector_1-6" entityUid="Servo_connector_1*:*Default">
+<Transform>
+<Rotation>-0.97454754587272929 4.3710614258228359e-16 -0.22418091094792331 -0.22418091094792331 5.9837073494315386e-16 0.97454754587272929 5.6012401498359414e-16 1 -4.8514987803588271e-16</Rotation>
+<Translation>-0.14434860788605872 0.31571883689977248 -0.27995121067837547</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 3-6" uid="LINK 3-6" entityUid="LINK 3*:*Default">
+<Transform>
+<Rotation>-0.58264742616761067 -0.81272503147144326 0 -0.81272503147144326 0.58264742616761067 -6.8149059511231284e-16 5.7067432105214183e-16 -3.7362095805885073e-16 -0.99999999999999978</Rotation>
+<Translation>-0.12986235181540826 0.22141019485141672 -0.26195121067837518</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-15" uid="Servo motor HS475-15" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>0.6306599676873621 -1.0837858380093456e-15 -0.77605927940884478 -0.77605927940884478 1.7223524202610169e-15 -0.6306599676873621 2.0201479197348393e-15 1 2.4513666522901908e-16</Rotation>
+<Translation>-0.12411041168281178 0.18652588341044007 -0.29625121067837584</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 1-12" uid="LINK 1-12" entityUid="LINK 1*:*Default">
+<Transform>
+<Rotation>7.6448322756215264e-16 -0.55525347532332758 -0.83168117577673173 6.1240242787935296e-16 -0.83168117577673173 0.55525347532332758 -1 -9.3380554019750483e-16 -2.9576773318402764e-16</Rotation>
+<Translation>-0.5454057159041954 0.37119622294377397 0.11584878932162455</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector_1-10" uid="Servo_connector_1-10" entityUid="Servo_connector_1*:*Default">
+<Transform>
+<Rotation>0.92371541738735252 1.3711604093408678e-15 0.38307940127460466 0.3830794012746046 6.1511939837979067e-16 -0.92371541738735252 -1.4971052431889352e-15 1 0</Rotation>
+<Translation>-0.023222705359662761 0.26851167920979746 -0.32785121067837547</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-16" uid="Servo motor HS475-16" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>-0.3631319822305823 0 0.931737711741501 -0.931737711741501 -4.3226460849037918e-16 -0.3631319822305823 3.8847175556164876e-16 -1 1.9362333071097844e-16</Rotation>
+<Translation>-0.023222705359662733 0.26851167920979746 -0.2815512106783753</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector-6" uid="Servo_connector-6" entityUid="Servo_connector*:*Default">
+<Transform>
+<Rotation>0.83721668032131868 -1.6003683629899476e-15 0.5468713104485835 -0.5468713104485835 2.8329662880220144e-16 0.83721668032131868 -1.4947818867924328e-15 -1 -6.3801488075676698e-16</Rotation>
+<Translation>-0.12411041168281242 0.18652588341044038 -0.26195121067837518</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 1-13" uid="LINK 1-13" entityUid="LINK 1*:*Default">
+<Transform>
+<Rotation>9.5971577036080892e-16 -0.6306599676873621 0.77605927940884478 -1.5696778694274721e-15 0.77605927940884478 0.6306599676873621 -1 -1.8234173929766945e-15 -2.4513666522918326e-16</Rotation>
+<Translation>0.033046064524186347 0.26269570674093778 -0.29785121067837572</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-13" uid="Servo motor HS475-13" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>-0.67753087153724878 6.4224363688223641e-16 -0.73549433588164115 0.73549433588164115 1.0829258171632432e-15 -0.67753087153724878 3.6134591366748889e-16 -1 -1.2060822298957093e-15</Rotation>
+<Translation>-0.5218443186996975 0.15545687180789675 0.13214878932162383</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector_1-9" uid="Servo_connector_1-9" entityUid="Servo_connector_1*:*Default">
+<Transform>
+<Rotation>-0.99999999945869666 1.1103414514187852e-15 -3.2902995266496162e-05 3.2902995266391462e-05 0 -0.99999999945869655 -1.1154359711010745e-15 -1 0</Rotation>
+<Translation>-0.42623005503508421 0.24353588510773905 0.16374878932162407</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector-5" uid="Servo_connector-5" entityUid="Servo_connector*:*Default">
+<Transform>
+<Rotation>-0.56383999154467501 1.5901736042565235e-15 -0.82588404993370645 -0.82588404993370645 6.4542865948593406e-15 0.56383999154467501 6.2281341751071957e-15 1 -2.3258136748265448e-15</Rotation>
+<Translation>-0.52184431869969705 0.15545687180789849 0.097848789321623469</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-14" uid="Servo motor HS475-14" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>0.55525347532332758 -8.382573738155795e-16 0.83168117577673173 0.83168117577673173 -7.2290433633191993e-16 -0.55525347532332758 1.0666712484411353e-15 1 2.9576773318385429e-16</Rotation>
+<Translation>-0.42623005503508415 0.24353588510773905 0.11744878932162453</Translation>
+</Transform>
+</Instance>
+<Instance name="WHEEL-5" uid="WHEEL-5" entityUid="WHEEL*:*Default">
+<Transform>
+<Rotation>-6.0122670978996925e-16 -0.94889845094975034 0.31558157389994224 1.1606725671072322e-15 -0.31558157389994224 -0.94889845094975034 1 -2.0421621807913019e-16 1.2910964723341249e-15</Rotation>
+<Translation>-0.43521699406786274 0.11646063317991216 0.1018487893216239</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-18" uid="Servo motor HS475-18" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>-0.56108848515626619 4.8933577916876025e-16 -0.82775582862644137 0.82775582862644137 -2.7543087302088181e-16 -0.56108848515626619 -5.0255018159326505e-16 -1 -2.5050945205384788e-16</Rotation>
+<Translation>-0.14220996569958547 0.1730950695106013 0.13214878932162485</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector_1-12" uid="Servo_connector_1-12" entityUid="Servo_connector_1*:*Default">
+<Transform>
+<Rotation>0.92372185557299569 4.1804104055949284e-16 0.38306387657514979 0.38306387657514979 1.2780635264272731e-15 -0.92372185557299569 -8.7573361463381824e-16 1 1.0204387906073384e-15</Rotation>
+<Translation>-0.41440860422448533 0.26557508831969501 -0.32785121067837691</Translation>
+</Transform>
+</Instance>
+<Instance name="WHEEL-7" uid="WHEEL-7" entityUid="WHEEL*:*Default">
+<Transform>
+<Rotation>-6.0610538142709508e-16 -0.6270510775425171 0.77897814228177698 1.1330903483027066e-15 -0.77897814228177698 -0.6270510775425171 1 5.0259358203007545e-16 1.182648367907304e-15</Rotation>
+<Translation>-0.061466260395349484 0.12304055868747282 0.101848789321625</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-17" uid="Servo motor HS475-17" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>0.53601741783735823 -2.2448396724081404e-15 0.84420692236854533 0.84420692236854533 1.2108462310310965e-15 -0.53601741783735823 1.8106839450275824e-16 1 2.5441438612098752e-15</Rotation>
+<Translation>-0.03460170797814812 0.24603657258091594 0.11744878932162495</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 1-17" uid="LINK 1-17" entityUid="LINK 1*:*Default">
+<Transform>
+<Rotation>1.6720471699598732e-15 0.38572114292366094 -0.92261541278133075 1.8520111697683779e-15 0.92261541278133075 0.38572114292366094 1 -2.3536379952906796e-15 8.282966247919392e-16</Rotation>
+<Translation>-0.58668207011425921 0.29424306610546602 -0.27995121067837542</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 3-8" uid="LINK 3-8" entityUid="LINK 3*:*Default">
+<Transform>
+<Rotation>-0.42216929238152445 -0.90651700953158243 -1.2955864309866083e-15 -0.90651700953158243 0.42216929238152445 0 6.3010153653225556e-16 1.1357502400448946e-15 -1.0000000000000002</Rotation>
+<Translation>-0.52042027564532978 0.20889101878850316 -0.26195121067837579</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 1-14" uid="LINK 1-14" entityUid="LINK 1*:*Default">
+<Transform>
+<Rotation>0 0.3631319822305823 -0.931737711741501 5.5603325112673259e-16 0.931737711741501 0.3631319822305823 1 -5.2130811184165961e-16 -1.9362333071080602e-16</Rotation>
+<Translation>-0.19614339564494127 0.29297460771933637 -0.27995121067837542</Translation>
+</Transform>
+</Instance>
+<Instance name="WHEEL-6" uid="WHEEL-6" entityUid="WHEEL*:*Default">
+<Transform>
+<Rotation>0 0.80791518098648329 0.58929878697616356 -5.6138376934468661e-16 0.58929878697616367 -0.80791518098648318 -0.99999999999999989 -3.7345343568038973e-16 4.2245537741896003e-16</Rotation>
+<Translation>-0.046901533693025341 0.13117437792451736 -0.26595121067837507</Translation>
+</Transform>
+</Instance>
+<Instance name="WHEEL-8" uid="WHEEL-8" entityUid="WHEEL*:*Default">
+<Transform>
+<Rotation>-1.6028685082117971e-15 0.99079732730928272 -0.13535381855264478 0 -0.13535381855264481 -0.9907973273092826 -0.99999999999999989 -1.59382599051126e-15 1.7517035626112403e-16</Rotation>
+<Translation>-0.42219246681107769 0.13556777846442972 -0.26595121067837574</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector_1-11" uid="Servo_connector_1-11" entityUid="Servo_connector_1*:*Default">
+<Transform>
+<Rotation>-0.99999999945869666 1.1103414514187852e-15 -3.2902995266496162e-05 3.2902995266391462e-05 0 -0.99999999945869655 -1.1154359711010745e-15 -1 0</Rotation>
+<Translation>-0.034601707978148183 0.24603657258091594 0.16374878932162487</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-19" uid="Servo motor HS475-19" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>-0.38572114292366094 -1.6057933010781555e-15 0.92261541278133075 -0.92261541278133075 -1.693536993001265e-15 -0.38572114292366094 2.1818717592493379e-15 -1 -8.2829662479176999e-16</Rotation>
+<Translation>-0.41440860422448561 0.26557508831969567 -0.28155121067837569</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 1-16" uid="LINK 1-16" entityUid="LINK 1*:*Default">
+<Transform>
+<Rotation>-4.0497295624415002e-16 0.56108848515626619 0.82775582862644137 1.5097310879507418e-16 -0.82775582862644137 0.56108848515626619 1 3.5219453331926147e-16 2.5050945205401562e-16</Rotation>
+<Translation>-0.023935014239341142 0.30159034513222427 0.13374878932162487</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo motor HS475-20" uid="Servo motor HS475-20" entityUid="Servo motor HS475*:*Default">
+<Transform>
+<Rotation>0.69154790060785265 8.7834332788697531e-16 -0.72233060378532488 -0.72233060378532488 4.2606300132315503e-16 -0.69154790060785265 -2.9965813941680994e-16 1 9.2909724045511827e-16</Rotation>
+<Translation>-0.5083115827165795 0.17567386124067363 -0.29625121067837556</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 1-15" uid="LINK 1-15" entityUid="LINK 1*:*Default">
+<Transform>
+<Rotation>2.1736213384672868e-15 -0.53601741783735823 -0.84420692236854533 -1.3230123818162167e-15 -0.84420692236854533 0.53601741783735823 -1 0 -2.544143861210048e-15</Rotation>
+<Translation>-0.15667618806730649 0.37092781050800877 0.11584878932162454</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector-8" uid="Servo_connector-8" entityUid="Servo_connector*:*Default">
+<Transform>
+<Rotation>0.83717960782703127 1.0209574321914805e-16 0.54692806130109828 -0.54692806130109828 -6.8425164561402115e-16 0.83717960782703127 4.597089002467784e-16 -1 -5.1700249742420364e-16</Rotation>
+<Translation>-0.50831158271657828 0.17567386124067408 -0.26195121067837535</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 1-18" uid="LINK 1-18" entityUid="LINK 1*:*Default">
+<Transform>
+<Rotation>-1.0149407139500036e-15 -0.69154790060785265 0.72233060378532488 -2.8338528910176069e-16 0.72233060378532488 0.69154790060785265 -1 4.9718225299280606e-16 -9.290972404552861e-16</Rotation>
+<Translation>-0.3578534640487589 0.26434378019259597 -0.29785121067837589</Translation>
+</Transform>
+</Instance>
+<Instance name="LINK 3-7" uid="LINK 3-7" entityUid="LINK 3*:*Default">
+<Transform>
+<Rotation>0.52688958761187932 -0.84993374004458921 -5.708523534472107e-16 0.84993374004458921 0.52688958761187932 1.1762742602330058e-15 -6.9897902022294792e-16 -1.1049533356712795e-15 1</Rotation>
+<Translation>-0.17663054889099716 0.16501896569978358 0.097848789321624899</Translation>
+</Transform>
+</Instance>
+<Instance name="Servo_connector-7" uid="Servo_connector-7" entityUid="Servo_connector*:*Default">
+<Transform>
+<Rotation>-0.56383999154467501 1.5901736042565235e-15 -0.82588404993370645 -0.82588404993370645 6.4542865948593406e-15 0.56383999154467501 6.2281341751071957e-15 1 -2.3258136748265448e-15</Rotation>
+<Translation>-0.14220996569958508 0.17309506951060211 0.097848789321624066</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0 0 -0.27499999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-7</Uid>
+</InstancePath>
+<Position>0.0099999999999998979 -0.026599999999999985 0.010000000000000009</Position>
+<Axis>0 -1 -6.0715321659188238e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0.060000000000000053 0.059999999999999998 -0.27499999999999997</Position>
+<Axis>-1 3.4694469519536147e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-7</Uid>
+</InstancePath>
+<Position>0.0099999999999999534 0.0074000000000000177 -0.030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0.020000000000000018 0.059999999999999998 -0.27499999999999997</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-7</Uid>
+</InstancePath>
+<Position>0.0099999999999999534 0.0074000000000000177 -0.030000000000000027</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident49">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0 0 -0.27499999999999997</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-8</Uid>
+</InstancePath>
+<Position>0.0099999999999999534 -0.026600000000000013 0.010000000000000037</Position>
+<Axis>0 -1 -6.0715321659188238e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident50">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0.41000000000000003 0.059999999999999998 -0.27499999999999997</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-8</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000177 -0.029999999999999999</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0.45000000000000001 0.059999999999999998 -0.27499999999999997</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-8</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000177 -0.029999999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0 0 -0.025000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-10</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.026599999999999992 0.010000000000000009</Position>
+<Axis>0 -0.99999999999999989 -6.0715321659188248e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0.060000000000000053 0.059999999999999998 -0.025000000000000001</Position>
+<Axis>-1 3.4694469519536147e-16 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-10</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000316 -0.030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident55">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0.020000000000000018 0.059999999999999998 -0.025000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-10</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0074000000000000316 -0.030000000000000027</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident56">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0 0 -0.025000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-9</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.026599999999999999 0.010000000000000009</Position>
+<Axis>0 -0.99999999999999989 -6.0715321659188248e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0.41000000000000003 0.059999999999999998 -0.025000000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-9</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000038 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Chassis 3 link-2</Uid>
+</InstancePath>
+<Position>0.41000000000000003 0.059999999999999998 -0.025000000000000001</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-9</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0074000000000000316 -0.030000000000000027</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric24">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-8</Uid>
+</InstancePath>
+<Position>0 0.016599999999999976 0</Position>
+<Axis>0 -1 -9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-6</Uid>
+</InstancePath>
+<Position>0 0.030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-8</Uid>
+</InstancePath>
+<Position>0 0.013300000000000006 0</Position>
+<Axis>0 1 9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-6</Uid>
+</InstancePath>
+<Position>0 0.033000000000000029 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric25">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-7</Uid>
+</InstancePath>
+<Position>0 0.016600000000000004 0</Position>
+<Axis>0 -1 -9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-7</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident61">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-7</Uid>
+</InstancePath>
+<Position>0 0.013300000000000006 0</Position>
+<Axis>0 1 9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-7</Uid>
+</InstancePath>
+<Position>0 0.033000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric27">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-10</Uid>
+</InstancePath>
+<Position>0 0.016600000000000004 0</Position>
+<Axis>0 -0.99999999999999989 -9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-5</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident62">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-10</Uid>
+</InstancePath>
+<Position>0 0.013300000000000006 0</Position>
+<Axis>0 0.99999999999999989 9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-5</Uid>
+</InstancePath>
+<Position>0 0.033000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric28">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-9</Uid>
+</InstancePath>
+<Position>0 0.016600000000000004 0</Position>
+<Axis>0 -0.99999999999999989 -9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-4</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident63">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-9</Uid>
+</InstancePath>
+<Position>0 0.013300000000000006 0</Position>
+<Axis>0 0.99999999999999989 9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-4</Uid>
+</InstancePath>
+<Position>0 0.033000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-14</Uid>
+</InstancePath>
+<Position>0.010000000000000016 0.0074000000000000454 -0.030000000000000082</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-12</Uid>
+</InstancePath>
+<Position>0.025000000000000008 0.050000000000000072 -0.1399999999999999</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric34">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 3-5</Uid>
+</InstancePath>
+<Position>0.024999999999999981 -0.12000000000000005 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WHEEL-5</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric35">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 1-11</Uid>
+</InstancePath>
+<Position>0 0.040000000000000202 -0.040000000000000036</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-9</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident75">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-14</Uid>
+</InstancePath>
+<Position>0.010000000000000016 0.0074000000000000454 -0.030000000000000082</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-12</Uid>
+</InstancePath>
+<Position>0.025000000000000008 0.030000000000000023 -0.17999999999999994</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-14</Uid>
+</InstancePath>
+<Position>0.010000000000000037 -0.026599999999999999 0.0099999999999999534</Position>
+<Axis>0 -1 -6.0715321659188238e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-12</Uid>
+</InstancePath>
+<Position>0.025000000000000008 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric36">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-9</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-14</Uid>
+</InstancePath>
+<Position>0 0.016600000000000018 0</Position>
+<Axis>0 -1 -9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 3-5</Uid>
+</InstancePath>
+<Position>0 -0.080000000000000016 0.0029999999999999888</Position>
+<Axis>0 -1.3010426069826053e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WHEEL-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident77">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-13</Uid>
+</InstancePath>
+<Position>0 0.013300000000000006 0</Position>
+<Axis>0 1 9.1072982488782333e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector-5</Uid>
+</InstancePath>
+<Position>0 0.020999999999999991 1.1102230246251565e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident78">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-11</Uid>
+</InstancePath>
+<Position>0.024999999999999994 0.050000000000000211 -0.14000000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-13</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000316 -0.029999999999999999</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident79">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-11</Uid>
+</InstancePath>
+<Position>0.024999999999999994 1.1102230246251565e-16 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-13</Uid>
+</InstancePath>
+<Position>0.010000000000000064 -0.026599999999999985 0.010000000000000009</Position>
+<Axis>0 -1 -6.0715321659188199e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric37">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 3-5</Uid>
+</InstancePath>
+<Position>0.024999999999999939 -0.025000000000000022 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector-5</Uid>
+</InstancePath>
+<Position>0 0.018000000000000002 1.1102230246251565e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident80">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-11</Uid>
+</InstancePath>
+<Position>0.024999999999999994 0.050000000000000211 -0.18000000000000008</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-13</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0074000000000000316 -0.029999999999999999</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident81">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 3-5</Uid>
+</InstancePath>
+<Position>0.050000000000000017 -1.1102230246251565e-16 0</Position>
+<Axis>0 1.2246467991473535e-16 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident82">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-11</Uid>
+</InstancePath>
+<Position>0.029999999999999999 1.1102230246251565e-16 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-9</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident83">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-9</Uid>
+</InstancePath>
+<Position>0 0.033000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-14</Uid>
+</InstancePath>
+<Position>0 0.01330000000000002 0</Position>
+<Axis>0 1 9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric38">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-13</Uid>
+</InstancePath>
+<Position>0 0.016600000000000004 0</Position>
+<Axis>0 -1 -9.1072982488782333e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector-5</Uid>
+</InstancePath>
+<Position>0 0.018000000000000002 1.1102230246251565e-16</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident84">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-16</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000177 -0.030000000000000027</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-14</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.050000000000000072 -0.14000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric39">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 3-6</Uid>
+</InstancePath>
+<Position>0.024999999999999981 -0.11999999999999998 0</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WHEEL-6</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric40">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 1-13</Uid>
+</InstancePath>
+<Position>0 0.040000000000000063 -0.040000000000000008</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-10</Uid>
+</InstancePath>
+<Position>0 0.029999999999999971 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident85">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-16</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000177 -0.030000000000000027</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-14</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.030000000000000082 -0.18000000000000005</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident86">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-16</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.026600000000000013 0.010000000000000009</Position>
+<Axis>0 -1 -6.0715321659188229e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-14</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric41">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-10</Uid>
+</InstancePath>
+<Position>0 0.030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-16</Uid>
+</InstancePath>
+<Position>0 0.016600000000000004 0</Position>
+<Axis>0 -1 -9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="Distance5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 3-6</Uid>
+</InstancePath>
+<Position>0 -0.07999999999999996 0.0030000000000000027</Position>
+<Axis>0 -1.3010426069826063e-16 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WHEEL-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident87">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-15</Uid>
+</InstancePath>
+<Position>0 0.013300000000000034 0</Position>
+<Axis>0 1 9.1072982488782333e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector-6</Uid>
+</InstancePath>
+<Position>0 0.021000000000000019 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident88">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-13</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.050000000000000044 -0.14000000000000001</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-15</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000732 -0.030000000000000023</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident89">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-13</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-15</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.026599999999999957 0.010000000000000002</Position>
+<Axis>0 -1 -6.0715321659188248e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric42">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 3-6</Uid>
+</InstancePath>
+<Position>0.024999999999999953 -0.025000000000000022 0</Position>
+<Axis>0 0 0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector-6</Uid>
+</InstancePath>
+<Position>0 0.018000000000000016 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident90">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-13</Uid>
+</InstancePath>
+<Position>0.024999999999999967 0.050000000000000072 -0.18000000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-15</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0074000000000000732 -0.030000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident91">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 3-6</Uid>
+</InstancePath>
+<Position>0.049999999999999989 0 0</Position>
+<Axis>0 1.2246467991473544e-16 -0.99999999999999978</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident92">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-13</Uid>
+</InstancePath>
+<Position>0.030000000000000027 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-10</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident93">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-10</Uid>
+</InstancePath>
+<Position>0 0.032999999999999974 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-16</Uid>
+</InstancePath>
+<Position>0 0.013300000000000034 0</Position>
+<Axis>0 1 9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric43">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-15</Uid>
+</InstancePath>
+<Position>0 0.016600000000000004 0</Position>
+<Axis>0 -1 -9.1072982488782333e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector-6</Uid>
+</InstancePath>
+<Position>0 0.018000000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident97">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric45">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-5</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 1-12</Uid>
+</InstancePath>
+<Position>0 0.03999999999999998 -0.039999999999999925</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident100">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-11</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-16</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident101">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-15</Uid>
+</InstancePath>
+<Position>0.025000000000000008 0.0500000000000001 -0.14000000000000004</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-17</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000316 -0.030000000000000054</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident102">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector-7</Uid>
+</InstancePath>
+<Position>0 0.021000000000000005 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-18</Uid>
+</InstancePath>
+<Position>0 0.013300000000000006 0</Position>
+<Axis>0 1 9.1072982488782333e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric47">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-11</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 1-16</Uid>
+</InstancePath>
+<Position>0 0.040000000000000008 -0.040000000000000036</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident103">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-18</Uid>
+</InstancePath>
+<Position>0.0099999999999999811 -0.026599999999999985 0.010000000000000005</Position>
+<Axis>0 -1 -6.0715321659188238e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-16</Uid>
+</InstancePath>
+<Position>0.024999999999999994 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident104">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 3-7</Uid>
+</InstancePath>
+<Position>0.049999999999999989 0 0</Position>
+<Axis>0 1.2246467991473436e-16 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident105">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-15</Uid>
+</InstancePath>
+<Position>0.024999999999999994 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-17</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.026599999999999999 0.0099999999999999811</Position>
+<Axis>0 -1 -6.0715321659188248e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 3-7</Uid>
+</InstancePath>
+<Position>0 -0.07999999999999996 0.0029999999999999888</Position>
+<Axis>0 -1.3010426069825974e-16 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WHEEL-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Coincident name="Coincident106">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-18</Uid>
+</InstancePath>
+<Position>0.010000000000000037 0.0074000000000000316 -0.030000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-16</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.050000000000000017 -0.14000000000000004</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric48">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-17</Uid>
+</InstancePath>
+<Position>0 0.016600000000000018 0</Position>
+<Axis>0 -1 -9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-11</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident107">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-17</Uid>
+</InstancePath>
+<Position>0 0.01330000000000002 0</Position>
+<Axis>0 1 9.1072982488782353e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-11</Uid>
+</InstancePath>
+<Position>0 0.033000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric49">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WHEEL-7</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 3-7</Uid>
+</InstancePath>
+<Position>0.024999999999999981 -0.11999999999999994 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident108">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-15</Uid>
+</InstancePath>
+<Position>0.025000000000000008 0.030000000000000082 -0.18000000000000005</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-17</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.0074000000000000316 -0.030000000000000054</Position>
+<Axis>1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric50">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector-7</Uid>
+</InstancePath>
+<Position>0 0.018000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 3-7</Uid>
+</InstancePath>
+<Position>0.024999999999999953 -0.025000000000000022 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident109">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-18</Uid>
+</InstancePath>
+<Position>-0.0099999999999999811 0.0074000000000000177 -0.029999999999999995</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-16</Uid>
+</InstancePath>
+<Position>0.024999999999999994 0.050000000000000044 -0.18000000000000002</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric51">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector-7</Uid>
+</InstancePath>
+<Position>0 0.018000000000000002 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-18</Uid>
+</InstancePath>
+<Position>0 0.016600000000000004 0</Position>
+<Axis>0 -1 -9.1072982488782333e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric52">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-4</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 1-15</Uid>
+</InstancePath>
+<Position>0 0.040000000000000036 -0.040000000000000036</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident110">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-15</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident111">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-14</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric53">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-6</Uid>
+</InstancePath>
+<Position>0 0.030000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 1-14</Uid>
+</InstancePath>
+<Position>0 0.040000000000000063 -0.040000000000000008</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident113">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-12</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-18</Uid>
+</InstancePath>
+<Position>0.029999999999999971 0 0</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric54">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector-8</Uid>
+</InstancePath>
+<Position>0 0.018000000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-20</Uid>
+</InstancePath>
+<Position>0 0.016600000000000004 0</Position>
+<Axis>0 -1 -9.1072982488782313e-16</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident114">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-17</Uid>
+</InstancePath>
+<Position>0.024999999999999967 0.050000000000000037 -0.14000000000000001</Position>
+<Axis>0 0 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-19</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.0074000000000000732 -0.030000000000000027</Position>
+<Axis>0 0 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="Distance7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 3-8</Uid>
+</InstancePath>
+<Position>0 -0.080000000000000016 0.0029999999999999472</Position>
+<Axis>0 -1.3010426069826053e-16 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>WHEEL-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric55">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>WHEEL-8</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0 0</Position>
+<Axis>-0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 3-8</Uid>
+</InstancePath>
+<Position>0.025000000000000022 -0.11999999999999994 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric56">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo motor HS475-19</Uid>
+</InstancePath>
+<Position>0 0.016600000000000004 0</Position>
+<Axis>0 -1 -9.1072982488782372e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-12</Uid>
+</InstancePath>
+<Position>0 0.030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric57">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector-8</Uid>
+</InstancePath>
+<Position>0 0.018000000000000016 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 3-8</Uid>
+</InstancePath>
+<Position>0.024999999999999967 -0.025000000000000133 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident115">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 3-8</Uid>
+</InstancePath>
+<Position>0.050000000000000044 -1.1102230246251565e-16 0</Position>
+<Axis>0 1.2246467991473535e-16 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident116">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector-8</Uid>
+</InstancePath>
+<Position>0 0.021000000000000019 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-20</Uid>
+</InstancePath>
+<Position>0 0.013300000000000034 0</Position>
+<Axis>0 1 9.1072982488782313e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident117">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-19</Uid>
+</InstancePath>
+<Position>0 0.013300000000000034 0</Position>
+<Axis>0 1 9.1072982488782372e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-12</Uid>
+</InstancePath>
+<Position>0 0.032999999999999974 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident118">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-20</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.026600000000000013 0.010000000000000037</Position>
+<Axis>0 -1 -6.0715321659188189e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-18</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric58">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-12</Uid>
+</InstancePath>
+<Position>0 0.029999999999999971 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 1-18</Uid>
+</InstancePath>
+<Position>0 0.040000000000000036 -0.040000000000000063</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident119">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-20</Uid>
+</InstancePath>
+<Position>0.010000000000000064 0.0074000000000000732 -0.029999999999999971</Position>
+<Axis>0 0 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-18</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.0500000000000001 -0.14000000000000007</Position>
+<Axis>0 0 -1.0000000000000004</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident120">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-17</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.030000000000000047 -0.18000000000000005</Position>
+<Axis>0 1.0000000000000004 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-19</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.0074000000000000732 -0.030000000000000027</Position>
+<Axis>1.0000000000000004 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident121">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-20</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0.0074000000000000732 -0.029999999999999999</Position>
+<Axis>-1.0000000000000004 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-18</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0.050000000000000155 -0.18000000000000019</Position>
+<Axis>0 -1.0000000000000004 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident122">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-17</Uid>
+</InstancePath>
+<Position>0.025000000000000022 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo motor HS475-19</Uid>
+</InstancePath>
+<Position>0.010000000000000009 -0.026600000000000013 0.010000000000000009</Position>
+<Axis>0 -1 -6.0715321659188229e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric59">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Servo_connector_1-7</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>LINK 1-17</Uid>
+</InstancePath>
+<Position>0 0.040000000000000001 -0.040000000000000036</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident123">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Servo_connector_1-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>LINK 1-17</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Chassis 3 link" uid="Chassis 3 link*:*Default" version="267">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Chassis 3 link.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>14.920000000000007</Mass>
+<CenterOfMass>0.25008042895442356 0.049999999999999996 -0.14999999999999999</CenterOfMass>
+<Inertia>0.12348066666666659 0.42041257015192141 0.32192657015192144 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Chassis 3 link_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LINK 1" uid="LINK 1*:*Default" version="490">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LINK 1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.41540352730643343</Mass>
+<CenterOfMass>0.015120364890313308 0.040000000000000008 -0.097601308774365958</CenterOfMass>
+<Inertia>0.0013799053348912075 0.001198166538526343 0.00024470395563846504 0 3.1199345612817269e-06 0</Inertia>
+</MassProperties>
+<GeometryFile name="LINK 1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="LINK 3" uid="LINK 3*:*Default" version="613">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="LINK 3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.076891695703701912</Mass>
+<CenterOfMass>0.024999999999999998 -0.051685146342069645 0.0090009581900565728</CenterOfMass>
+<Inertia>6.7396480530529447e-05 1.7982294607544911e-05 8.0521602080635765e-05 -1.9660777445901974e-09 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="LINK 3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo motor HS475" uid="Servo motor HS475*:*Default" version="108">
+<ModelUnits mass="kilogram" length="inch"/>
+<PartFile name="Servo motor HS475.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.029956104891099487</Mass>
+<CenterOfMass>0 -0.0079043946104488481 -0.0097231700882103467</CenterOfMass>
+<Inertia>7.5466360387975242e-06 5.0544450273256268e-06 4.419277693851427e-06 -1.1290969201331535e-07 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo motor HS475_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75294117647058822" g="0.75294117647058822" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.59482352941176475" g="0.59482352941176475" b="0.59482352941176475" a="1"/>
+<Specular r="0.66258823529411759" g="0.66258823529411759" b="0.66258823529411759" a="1"/>
+<Emissive r="0.15811764705882353" g="0.15811764705882353" b="0.15811764705882353" a="1"/>
+<Shininess>0.20999999999999999</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo_connector" uid="Servo_connector*:*Default" version="151">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo_connector.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.002101725485251572</Mass>
+<CenterOfMass>0 0.0093295964125560526 0</CenterOfMass>
+<Inertia>8.0794141518376194e-08 3.7468204783038702e-08 8.0794141518376194e-08 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo_connector_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Servo_connector_1" uid="Servo_connector_1*:*Default" version="160">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Servo_connector_1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0034588935116023627</Mass>
+<CenterOfMass>0 0.015314713896457765 0</CenterOfMass>
+<Inertia>3.0308578470972483e-07 6.189722925735296e-08 3.0308578470972483e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Servo_connector_1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="WHEEL" uid="WHEEL*:*Default" version="158">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="WHEEL.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.043393248527709052</Mass>
+<CenterOfMass>0.0050000000000000001 0 0</CenterOfMass>
+<Inertia>3.1053293477641815e-05 1.5888257143218483e-05 1.5888257143218483e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="WHEEL_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
